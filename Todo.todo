@@ -1,0 +1,15 @@
+☐ 
+
+✔ environment variables @done (17/6/2022, 9:16:53 am)
+✔ Process.argv: @done (17/6/2022, 9:16:54 am)
+✔ minimist command line params @done (17/6/2022, 9:32:48 am)
+✔ console.trace (With Modules) @done (17/6/2022, 9:38:08 am)
+✘ readLine From VSCODE @cancelled (17/6/2022, 9:17:04 am)
+const doSomething = () => console.log('test');
+const measureDoingSomething = () => {
+  console.time('doSomething()');
+  // do something, and measure the time it takes
+  doSomething();
+  console.timeEnd('doSomething()');
+};
+measureDoingSomething();
