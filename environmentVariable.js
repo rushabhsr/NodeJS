@@ -9,6 +9,7 @@ const measureDoingSomething = () => {
     // do something, and measure the time it takes
     doSomething();
     console.timeEnd('doSomething()');
+    console.error('doSomething()');
 };
 measureDoingSomething();
 
