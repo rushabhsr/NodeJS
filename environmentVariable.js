@@ -14,7 +14,7 @@ const measureDoingSomething = () => {
 measureDoingSomething();
 
 // Variables from Outside
-// $ USER_ID = 239482 USER_KEY = foobar node environmentVariable.js nodeVarfromOutfile = "Rushabh"
+// $ USER_ID=239482 USER_KEY=foobar node environmentVariable.js nodeVarfromOutfile="Rushabh"
 // [
 //     'C:\\Program Files\\nodejs\\node.exe', --Default Variable (NODE PATH)
 //     'D:\\My_WorkSpace\\MERNStack\\NodeJS\\environmentVariable.js', --Default Variable (CURRENT FILE)
@@ -29,7 +29,7 @@ measureDoingSomething();
 
 var argv = require('minimist')(process.argv.slice(2));
 console.log(argv);
-// node environmenVariables.js -x 3 -y 4 -n5 -abc foo bar baz
+// node environmenVariables.js -x 3 -y 4 -n5 -abc foo bar baz --beep=boop asd
 //Same Impact of - and --
 // {
 //     _: [ 'foo', 'bar', 'baz' ],
